@@ -1,12 +1,13 @@
 # Band Pass Filter controlled by Arduino
 
 It is a HF band pass filter controlled by Arduino. 
-With this project, you can use a set of up to four HF bandpass filters that can be controlled by Arduino. 
+With this project, you can use a set of up to four HF bandpass filters that can be selected by Arduino. 
+To do that you will need just two digital Arduino pins. 
 
 
 ## Preface
 
-Originally based on the [“Ensemble RX II (HF/LF) Auto Band Pass Filters“](http://www.wb5rvz.org/ensemble_rx_ii/index) from WB5RVZ, this project uses an Arduino controller instead an ATtiny85. Also, the its RF output is aimed to AM RF for the SI4735, AKC6955, KT0915 and others DSP based receivers istead the SoftRock Ensemble RX II device.
+Originally based on the [“Ensemble RX II (HF/LF) Auto Band Pass Filters“](http://www.wb5rvz.org/ensemble_rx_ii/index) from WB5RVZ, this project uses an Arduino controller instead an ATtiny85. Also, the RF output of the original filter has been modified to be easily attached to the SI4735, AKC6955, KT0915 and others DSP based receivers istead the [SoftRock Ensemble RX II device](http://www.wb5rvz.org/ensemble_rx_ii/index?projectId=16).
 
 
 ### Know more about DSP receivers controlled by Arduino 
