@@ -1,5 +1,8 @@
 # Band Pass Filter controlled by Arduino
 
+
+![Under construction](https://github.com/pu2clr/auto_bpf_arduino/blob/master/images/under_construction.png)
+
 It is a HF band pass filter controlled by Arduino. 
 With this project, you can use a set of up to four HF bandpass filters that can be selected by Arduino. 
 To do that you will need just two digital Arduino pins. 
