@@ -6,7 +6,7 @@ With this project, you can use a set of up to four HF bandpass filters that can 
 
 ## Preface
 
-Originally based on the [“Ensemble RX II (HF/LF) Auto Band Pass Filters“](http://www.wb5rvz.org/ensemble_rx_ii/index) from WB5RVZ, this project uses an Arduino controller instead a ATtiny85. Also, the its RF output is aimed to AM RF for the SI4735, AKC6955, KT0915 and others DSP based receivers istead the SoftRock Ensemble RX II device.
+Originally based on the [“Ensemble RX II (HF/LF) Auto Band Pass Filters“](http://www.wb5rvz.org/ensemble_rx_ii/index) from WB5RVZ, this project uses an Arduino controller instead an ATtiny85. Also, the its RF output is aimed to AM RF for the SI4735, AKC6955, KT0915 and others DSP based receivers istead the SoftRock Ensemble RX II device.
 
 
 ### Know more about DSP receivers controlled by Arduino 
