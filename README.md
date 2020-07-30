@@ -48,3 +48,5 @@ T1: 4 turns primary and secondary; wire #30; bifilar, binoculer ferrite BN-43-24
 1. [Constant-K LC Band Pass Filter Circuit Design & Calculations](https://www.electronics-notes.com/articles/radio/rf-filters/constant-k-simple-bandpass-lc-rf-filter-design-calculations.php)
 2. [LC Filters Design Tool](https://rf-tools.com/lc-filter/)
 3. [Bandpass LC Filters](https://youtu.be/mv_T6eBp3Lk)
+4. [Ensemble RX II (HF/LF)](http://www.wb5rvz.org/ensemble_rx_ii/index)
+5. [Ensemble RX II (HF/LF) Auto Band Pass Filters](http://www.wb5rvz.org/ensemble_rx_ii/05_bpf)
