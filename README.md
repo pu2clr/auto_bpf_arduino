@@ -40,3 +40,11 @@ L7 e L9: 0.46uH: 13 turns; wire #30; Toroid T25-6 (Yellow)
 L8: 0.13uH: 7 turns; wire #30;  Toroid T25-6 (Yellow).
 
 T1: 4 turns primary and secondary; wire #30; bifilar, binoculer ferrite BN-43-2402. Inductance of the single winding is 23.04 uH.
+
+
+
+## References
+
+1. [Constant-K LC Band Pass Filter Circuit Design & Calculations](https://www.electronics-notes.com/articles/radio/rf-filters/constant-k-simple-bandpass-lc-rf-filter-design-calculations.php)
+2. [LC Filters Design Tool](https://rf-tools.com/lc-filter/)
+3. [Bandpass LC Filters](https://youtu.be/mv_T6eBp3Lk)
