@@ -39,3 +39,4 @@ L5: 0.27uH: 10 turns; wire #30; Toroid T25-6 c(Yellow)
 L7 e L9: 0.46uH: 13 turns; wire #30; Toroid T25-6 (Yellow)
 L8: 0.13uH: 7 turns; wire #30;  Toroid T25-6 (Yellow).
 
+T1: 4 turns primary and secondary; wire #30; bifilar, binoculer ferrite BN-43-2402. Inductance of the single winding is 23.04 uH.
