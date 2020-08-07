@@ -3,10 +3,9 @@
    Bandpass filter circuit tester.
 
    This sketch uses the Arduino IDE serial monitor to check the switches.
-   You can select the bandpass filter by using the keyboard and typing 0, 1, 2 and 3.
+   You can select the bandpass filter by using the keyboard and typing 0, 1, 2 or 3.
 
    By Ricardo Lima Caratti, Jul 2020.
-
 */
 
 #define S0_PIN   4 // FST3253 or SN74CBT3253D S0 pin
