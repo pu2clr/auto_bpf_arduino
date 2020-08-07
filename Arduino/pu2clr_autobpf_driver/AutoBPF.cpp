@@ -24,14 +24,6 @@ void AutoBPF::setFilter(uint8_t filter) {
     if (filter < 4) {
         digitalWrite(this->s0, (filter & 1));  // Sets the S0 HIGH or LOW
         digitalWrite(this->s1, (filter & 2));     // Sets the S1 HIGH or LOW
+        this->currentFilter = filter;
     }
-}
-
-/**
- * @brief Returns the current bandpass filter
- * @details return a number between 0 and 3 corresponding the filter selected
- * @return uint8_t return 0, 1, 2 or 3
- */
-uint8_t AutoBPF::getCurrentFilter() {
-    return ((this->s1 << 1) & this->s0);
 }

@@ -26,10 +26,32 @@ class AutoBPF {
     uint8_t s0;
     uint8_t s1;
 
+    uint8_t currentFilter = 0;
+
     public:
 
     void setup(uint8_t pin_s0, uint8_t pin_s1);
     void setFilter(uint8_t filter);
-    uint8_t getCurrentFilter();
+
+    /**
+     * @brief Returns the current bandpass filter
+     * @details return a number between 0 and 3 corresponding the filter selected
+     * @return uint8_t return 0, 1, 2 or 3
+     */
+    inline uint8_t getCurrentFilter() { return currentFilter;};
+
+    /**
+     * @brief Gets the s0 channel value
+     * 
+     * @return uint8_t s0 value
+     */
+    inline uint8_t getS0() { return currentFilter & 1; }; 
+
+    /**
+     * @brief Gets the s1 channel value
+     * 
+     * @return uint8_t s1 value
+     */
+    inline uint8_t getS1() { return (currentFilter >> 1) & 1; };
 
 };

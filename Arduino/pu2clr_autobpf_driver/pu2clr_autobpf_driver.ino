@@ -12,6 +12,8 @@ void setup()
 {
     Serial.begin(9600);
 
+    showHelp();
+
     bpf.setup(4, 5);    // Selects Arduino pins 4 and 5 to control select the desired filter
     bpf.setFilter(0);   // Setects the first filter (BPF).
     delay(10000);       // 10s
@@ -39,6 +41,13 @@ void loop()
             
             Serial.print("\nThe current BPF is ");      // Get the current BPF from driver
             Serial.print(bpf.getCurrentFilter());
+
+            Serial.print("\nS0 is ");      // Get the current BPF from driver
+            Serial.print(bpf.getS0());
+            
+            Serial.print("\nS1 is ");      // Get the current BPF from driver
+            Serial.print(bpf.getS1());
+
 
             Serial.print("\n\nNow you can check the system (Circuit)...\n\n");
             delay(500);
