@@ -31,10 +31,16 @@ void loop()
         char key = Serial.read();
         if (key >= '0' && key <= '3') {
             aux = key - '0';                            // Converts char digit number to integer value.
-            Serial.print("\nYou selected the BPF ");
+
+            Serial.print("\nYou have just selected the BPF ");
             Serial.print(aux);
-            bpf.setFilter(aux);
-            Serial.print("\n\nCheck the system (Circuit)...\n\n");
+
+            bpf.setFilter(aux);                         // Switching to the given PBF
+            
+            Serial.print("\nThe current BPF is ");      // Get the current BPF from driver
+            Serial.print(bpf.getCurrentFilter());
+
+            Serial.print("\n\nNow you can check the system (Circuit)...\n\n");
             delay(500);
             showHelp();
         }
