@@ -3,7 +3,7 @@
 
 # Bandpass filter tester (sketch bpf_tester.ino)
 
- You can use the bpf_tester sketch to check your circuit. 
+ You can use the __bpf_tester.ino__ sketch to check your circuit. 
  This sketch is also useful to guide the user how to control the auto bandpass filter handleing teh Auduino pins direct. 
 
 

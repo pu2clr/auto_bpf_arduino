@@ -4,19 +4,39 @@
  *  
  *  Author: Ricardo Lima Caratti
  */
-#include "AutoBPF.h"
+#include "AutoBPF.h"    // Bandpass filter library
 
-AutoBPF bpf;   // Declare the Auto bandpass filter class.
+AutoBPF bpf;            // Declare the Auto bandpass filter class.
 
 void setup()
 {
+    Serial.begin(9600);
+
     bpf.setup(4, 5);    // Selects Arduino pins 4 and 5 to control select the desired filter
     bpf.setFilter(0);   // Setects the first filter (BPF).
     delay(10000);       // 10s
     bpf.setFilter(3);   // Selects the last filter (BPF).
 }
 
+void showHelp() {
+    Serial.print("\n************************************");
+    Serial.print("\nBandpass filter controller\n");
+    Serial.print("\nType 0, 1, 2 or 3 to select the bandpass filter");
+}
+
 void loop()
 {
-    // Loop    
+    int aux;
+    if (Serial.available() > 0) {
+        char key = Serial.read();
+        if (key >= '0' && key <= '3') {
+            aux = key - '0';                            // Converts char digit number to integer value.
+            Serial.print("\nYou selected the BPF ");
+            Serial.print(aux);
+            bpf.setFilter(aux);
+            Serial.print("\n\nCheck the system (Circuit)...\n\n");
+            delay(500);
+            showHelp();
+        }
+    }
 }
