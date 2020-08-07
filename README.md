@@ -25,7 +25,7 @@ Originally based on the [“Ensemble RX II (HF/LF) Auto Band Pass Filters“](ht
 
 # SCHEMATIC
 
-The schematic below uses two FST3253 device switches to select one of four bandpass filters. 
+The schematic below uses two [FST3253](https://www.mouser.com/datasheet/2/149/FST3253-113358.pdf) or two [SN74CBT3253D](https://www.ti.com/lit/ds/symlink/sn74cbt3253.pdf?HQS=TI-null-null-mousermode-df-pf-null-wwe&ts=1596797600884&ref_url=https%253A%252F%252Fbr.mouser.com%252F) device switches to select one of four bandpass filters. 
 
 ![Bandpass filter schematic](https://github.com/pu2clr/auto_bpf_arduino/blob/master/images/schematic_01.png)
 
@@ -45,8 +45,10 @@ T1: 4 turns primary and secondary; wire #30; bifilar, binoculer ferrite BN-43-24
 
 ## References
 
-1. [Constant-K LC Band Pass Filter Circuit Design & Calculations](https://www.electronics-notes.com/articles/radio/rf-filters/constant-k-simple-bandpass-lc-rf-filter-design-calculations.php)
-2. [LC Filters Design Tool](https://rf-tools.com/lc-filter/)
-3. [Bandpass LC Filters](https://youtu.be/mv_T6eBp3Lk)
-4. [Ensemble RX II (HF/LF)](http://www.wb5rvz.org/ensemble_rx_ii/index)
-5. [Ensemble RX II (HF/LF) Auto Band Pass Filters](http://www.wb5rvz.org/ensemble_rx_ii/05_bpf)
+1. [SN74CBT3253DUAL 1-OF-4 FET MULTIPLEXER/DEMULTIPLEXER](https://www.ti.com/lit/ds/symlink/sn74cbt3253.pdf?HQS=TI-null-null-mousermode-df-pf-null-wwe&ts=1596797600884&ref_url=https%253A%252F%252Fbr.mouser.com%252F)
+2. [FST3253Dual 4:1 Multiplexer/Demultiplexer Bus Switch](https://www.mouser.com/datasheet/2/149/FST3253-113358.pdf)
+3. [Constant-K LC Band Pass Filter Circuit Design & Calculations](https://www.electronics-notes.com/articles/radio/rf-filters/constant-k-simple-bandpass-lc-rf-filter-design-calculations.php)
+4. [LC Filters Design Tool](https://rf-tools.com/lc-filter/)
+5. [Bandpass LC Filters](https://youtu.be/mv_T6eBp3Lk)
+6. [Ensemble RX II (HF/LF)](http://www.wb5rvz.org/ensemble_rx_ii/index)
+7. [Ensemble RX II (HF/LF) Auto Band Pass Filters](http://www.wb5rvz.org/ensemble_rx_ii/05_bpf)
