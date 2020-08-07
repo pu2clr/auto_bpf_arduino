@@ -48,7 +48,6 @@ void loop()
             Serial.print("\nS1 is ");      // Get the current BPF from driver
             Serial.print(bpf.getS1());
 
-
             Serial.print("\n\nNow you can check the system (Circuit)...\n\n");
             delay(500);
             showHelp();

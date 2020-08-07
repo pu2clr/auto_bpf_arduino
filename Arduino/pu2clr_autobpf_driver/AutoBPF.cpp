@@ -26,4 +26,31 @@ void AutoBPF::setFilter(uint8_t filter) {
         digitalWrite(this->s1, (filter & 2));     // Sets the S1 HIGH or LOW
         this->currentFilter = filter;
     }
-}
+};
+
+/**
+ * @brief Switches to the next BPF
+ * @details if the current filter is the last (filter 3), the first filter will be select (filter 0).
+ */
+void AutoBPF::setNext() {
+
+    if (this->currentFilter == 3) 
+      this->currentFilter = 0;
+    else 
+       this->currentFilter++;
+
+    this->setFilter(currentFilter);
+};
+
+/**
+ * @brief Switches to the previous BPF
+ * @details if the current filter is the first (filter 0), the last filter will be select (filter 3).
+ */
+void AutoBPF::setPrevious() {
+    if (this->currentFilter == 0)
+        this->currentFilter = 3;
+    else
+        this->currentFilter--;
+
+    this->setFilter(currentFilter);
+};

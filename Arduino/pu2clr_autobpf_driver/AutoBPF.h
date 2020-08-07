@@ -54,4 +54,8 @@ class AutoBPF {
      */
     inline uint8_t getS1() { return (currentFilter >> 1) & 1; };
 
+
+    void setNext();
+    void setPrevious();
+
 };
