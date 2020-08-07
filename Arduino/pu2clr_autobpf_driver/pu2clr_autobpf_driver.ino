@@ -1,5 +1,5 @@
 /**
- *  This sketch is useful to check the circuit, test the AutoBPF library and guide the user. 
+ *  This sketch is useful to check the circuit, to test the AutoBPF library and to guide the user. 
  *  See the Bandpass filter circuit on https://github.com/pu2clr/auto_bpf_arduino
  *  
  *  Author: Ricardo Lima Caratti
