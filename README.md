@@ -39,14 +39,22 @@ The schematic below uses two [FST3253](https://www.mouser.com/datasheet/2/149/FS
 ![Bandpass filter schematic](https://github.com/pu2clr/auto_bpf_arduino/blob/master/images/schematic_01.png)
 
 
-L1 e L3: 2.00 uH; 21 turns; wire: #30; Toroid: T30-2(Red)
-L2: 0.46uH; 10 Turns; wire #30; Toroid T30-2(Red)
+* Filter 1
+  * L1 e L3: 2.00 uH; 21 turns; wire: #30; Toroid: T30-2(Red)
+  * L2: 0.46uH; 10 Turns; wire #30; Toroid T30-2(Red)
 
-L4 e L6: 1uH; 19 turns; wire #30; Toroid T25-6(Yellow)
-L5: 0.27uH: 10 turns; wire #30; Toroid T25-6 c(Yellow)
+* Filter 2
+  * L4 e L6: 1uH; 19 turns; wire #30; Toroid T25-6(Yellow)
+  * L5: 0.27uH: 10 turns; wire #30; Toroid T25-6 c(Yellow)
 
-L7 e L9: 0.46uH: 13 turns; wire #30; Toroid T25-6 (Yellow)
-L8: 0.13uH: 7 turns; wire #30;  Toroid T25-6 (Yellow).
+* Filter 3
+  * L7 e L9: 0.46uH: 13 turns; wire #30; Toroid T25-6 (Yellow)
+  * L8: 0.13uH: 7 turns; wire #30;  Toroid T25-6 (Yellow).
+
+* Filer 4
+  * Your choice (default -  by pass RF signal)
+
+
 
 T1: 4 turns primary and secondary; wire #30; bifilar, binoculer ferrite BN-43-2402. Inductance of the single winding is 23.04 uH.
 

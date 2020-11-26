@@ -14,10 +14,9 @@ void setup()
 
     showHelp();
 
-    bpf.setup(4, 5);    // Selects Arduino pins 4 and 5 to control select the desired filter
+    bpf.setup(14, 15);    // Selects Arduino pins 4 and 5 to control select the desired filter
     bpf.setFilter(0);   // Setects the first filter (BPF).
     delay(10000);       // 10s
-    bpf.setFilter(3);   // Selects the last filter (BPF).
 }
 
 void showHelp() {
