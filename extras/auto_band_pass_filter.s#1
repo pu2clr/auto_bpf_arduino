@@ -3148,7 +3148,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="-185.42" y="213.36" size="1.778" layer="91">8MHz to 16MHz</text>
 <text x="-180.34" y="175.26" size="1.778" layer="91">16MHz to 30MHz</text>
 <text x="-58.42" y="241.3" size="1.778" layer="91">SI4735 AMI circuit</text>
-<text x="-185.42" y="220.98" size="1.778" layer="91">4MHz to 8MHz</text>
+<text x="-185.42" y="223.52" size="1.778" layer="91">4MHz to 8MHz</text>
 </plain>
 <instances>
 <instance part="L1" gate="G$1" x="-172.72" y="264.16" smashed="yes">

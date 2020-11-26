@@ -3149,6 +3149,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="-180.34" y="175.26" size="1.778" layer="91">16MHz to 30MHz</text>
 <text x="-58.42" y="241.3" size="1.778" layer="91">SI4735 AMI circuit</text>
 <text x="-185.42" y="223.52" size="1.778" layer="91">4MHz to 8MHz</text>
+<text x="-284.48" y="276.86" size="1.778" layer="91">Based on Ensemble 
+RX II (HF/LF) Auto Band Pass Filters</text>
 </plain>
 <instances>
 <instance part="L1" gate="G$1" x="-172.72" y="264.16" smashed="yes">
@@ -3778,6 +3780,10 @@ In this library the device names are the same as the pin names of the symbols, t
 </schematic>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
