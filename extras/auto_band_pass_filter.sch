@@ -3458,9 +3458,6 @@ RX II (HF/LF) Auto Band Pass Filters</text>
 <wire x1="-73.66" y1="218.44" x2="-71.12" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="-71.12" y1="218.44" x2="-71.12" y2="215.9" width="0.1524" layer="91"/>
 <junction x="-71.12" y="215.9"/>
-<pinref part="C15" gate="G$1" pin="2"/>
-<wire x1="-53.34" y1="215.9" x2="-68.58" y2="215.9" width="0.1524" layer="91"/>
-<junction x="-68.58" y="215.9"/>
 </segment>
 <segment>
 <pinref part="M1" gate="G$1" pin="GND.1"/>
