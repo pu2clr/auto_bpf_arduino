@@ -29,7 +29,11 @@ Ricardo Lima Caratti, PU2CLR
 
 ## Preface
 
-Originally based on the [“Softrock Ensemble RX II (HF/LF) Auto Band Pass Filters“](http://www.wb5rvz.org/ensemble_rx_ii/index) from WB5RVZ, this project uses an Arduino controller instead an ATtiny85. Also, the RF output of the original filter has been modified to be easily attached to the SI4735, AKC6955, KT0915 and others DSP based receivers istead the [SoftRock Ensemble RX II device](http://www.wb5rvz.org/ensemble_rx_ii/index?projectId=16). Mr. Jim Regan, W0CHL, did a great job on auto bandpass filter. I recommend his design. Please, check Reagan's documentation on [https://github.com/JimReagans/Si4735-radio-PCB-s-and-bandpass-filter](https://github.com/JimReagans/Si4735-radio-PCB-s-and-bandpass-filter). Here you will find Arduino code and some experiments with this auto bandpass filter. 
+Originally based on the [“Softrock Ensemble RX II (HF/LF) Auto Band Pass Filters“](http://www.wb5rvz.org/ensemble_rx_ii/index) from WB5RVZ, this project uses an Arduino controller instead an ATtiny85. I heve developed an Arduino Library to control the Auto Band Pass filter device. You can see that on [Arduino/pu2clr_autobpf_driver](https://github.com/pu2clr/auto_bpf_arduino/tree/master/Arduino/pu2clr_autobpf_driver) folder. 
+
+The RF input and output of the original filter has been modified to be easily attached to the SI4735, AKC6955, KT0915 and others DSP based receivers istead the [SoftRock Ensemble RX II device](http://www.wb5rvz.org/ensemble_rx_ii/index?projectId=16). 
+
+Mr. Jim Regan, W0CHL, did a great job on auto bandpass filter. I recommend his design. Please, check Reagan's documentation on [https://github.com/JimReagans/Si4735-radio-PCB-s-and-bandpass-filter](https://github.com/JimReagans/Si4735-radio-PCB-s-and-bandpass-filter). 
 
 
 ### Know more about DSP receivers controlled by Arduino 
