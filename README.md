@@ -100,8 +100,6 @@ The photos below show the SI4732 based receiver with the Auto Band Pass Filter c
 ![Ricardo's SI4732 receiver prototype 02](https://github.com/pu2clr/auto_bpf_arduino/blob/master/images/F02_B.png)
 
 
-
-
 ## References
 
 1. [SN74CBT3253DUAL 1-OF-4 FET MULTIPLEXER/DEMULTIPLEXER](https://www.ti.com/lit/ds/symlink/sn74cbt3253.pdf?HQS=TI-null-null-mousermode-df-pf-null-wwe&ts=1596797600884&ref_url=https%253A%252F%252Fbr.mouser.com%252F)
