@@ -8,13 +8,23 @@ To do that you will need just two digital Arduino pins.
 
 This project includes a bandpass filter design based on [“Softrock Ensemble RX II (HF/LF) Auto Band Pass Filters“](http://www.wb5rvz.org/ensemble_rx_ii/index), an Arduino Library to control the filter, documentation and examples. 
 
-
 Mr. Jim Regan, W0CHL, did a great job on auto bandpass filter. I recommend his design. Please, check Reagan's documentation on [https://github.com/JimReagans/Si4735-radio-PCB-s-and-bandpass-filter](https://github.com/JimReagans/Si4735-radio-PCB-s-and-bandpass-filter)
 
 
 
 Ricardo Lima Caratti, PU2CLR
 
+
+## Contents 
+
+1. Preface
+2. Thanks
+3. Schematic
+4. Arduino Driver for Auto Band Pass filters
+   1. Sketch setup
+   2. How to test your filter
+5. Photos
+6. References
 
 
 ## Preface
@@ -38,25 +48,28 @@ The schematic below uses two [FST3253](https://www.mouser.com/datasheet/2/149/FS
 
 ![Bandpass filter schematic](https://github.com/pu2clr/auto_bpf_arduino/blob/master/images/schematic_01.png)
 
+* Filter 0 (180KHz to 4MHz )
+  * L1 and L3: 5.5 uH; 35 turns; wire: #30; Toroid: T30-2(Red) 
+  * L2: 2.6uH; 24 Turns; wire #30; Toroid T30-2(Red)
 
-* Filter 1
-  * L1 e L3: 2.00 uH; 21 turns; wire: #30; Toroid: T30-2(Red)
-  * L2: 0.46uH; 10 Turns; wire #30; Toroid T30-2(Red)
+* Filter 1 (4MHz to 8MHz)
+  * L4 and L6: 2.00 uH; 21 turns; wire: #30; Toroid: T30-2(Red)
+  * L5: 0.46uH; 10 Turns; wire #30; Toroid T30-2(Red)
 
-* Filter 2
-  * L4 e L6: 1uH; 19 turns; wire #30; Toroid T25-6(Yellow)
-  * L5: 0.27uH: 10 turns; wire #30; Toroid T25-6 c(Yellow)
+* Filter 2 (16MHz to 16MHz)
+  * L7 and L9: 1uH; 19 turns; wire #30; Toroid T25-6(Yellow)
+  * L8: 0.27uH: 10 turns; wire #30; Toroid T25-6 c(Yellow)
 
-* Filter 3
-  * L7 e L9: 0.46uH: 13 turns; wire #30; Toroid T25-6 (Yellow)
-  * L8: 0.13uH: 7 turns; wire #30;  Toroid T25-6 (Yellow).
-
-* Filer 4
-  * Your choice (default -  by pass RF signal)
+* Filter 3 (16MHz to 30MHz)
+  * L10 and L12: 0.46uH: 13 turns; wire #30; Toroid T25-6 (Yellow)
+  * L11: 0.13uH: 7 turns; wire #30;  Toroid T25-6 (Yellow).
 
 
+## Arduino Driver for Auto Band Pass filters
 
-T1: 4 turns primary and secondary; wire #30; bifilar, binoculer ferrite BN-43-2402. Inductance of the single winding is 23.04 uH.
+
+
+## Photos
 
 
 

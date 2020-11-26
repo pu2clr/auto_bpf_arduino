@@ -3093,11 +3093,11 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="L1" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="L" device="" value="5.5uH"/>
 <part name="L2" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="L" device="" value="2.6uH"/>
 <part name="L3" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="L" device="" value="5.5uH"/>
-<part name="L4" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="L" device="" value="1uH"/>
-<part name="L6" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="L" device="" value="1uH"/>
-<part name="L7" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="L" device="" value="0.46uH"/>
-<part name="L8" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="L" device="" value="0.13uH"/>
-<part name="L9" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="L" device="" value="0.46uH"/>
+<part name="L7" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="L" device="" value="1uH"/>
+<part name="L9" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="L" device="" value="1uH"/>
+<part name="L10" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="L" device="" value="0.46uH"/>
+<part name="L11" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="L" device="" value="0.13uH"/>
+<part name="L12" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="L" device="" value="0.46uH"/>
 <part name="U1" library="FST3253MX" deviceset="FAIRCHILD_FST3253MX" device="FAIRCHILD_FST3253MX_0_0"/>
 <part name="U2" library="FST3253MX" deviceset="FAIRCHILD_FST3253MX" device="FAIRCHILD_FST3253MX_0_0"/>
 <part name="M1" library="diy-modules" deviceset="ARDUINO-PRO-MINI-*" device="" technology="3.3V"/>
@@ -3128,10 +3128,10 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="GND10" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="CZ12" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2,5-3" package3d_urn="urn:adsk.eagle:package:5436/1" value="100nF"/>
 <part name="GND12" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="L5" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="L" device="" value="0.27uH"/>
-<part name="L10" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="L" device="" value="2uH"/>
-<part name="L11" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="L" device="" value="0.46uH"/>
-<part name="L12" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="L" device="" value="2uH"/>
+<part name="L8" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="L" device="" value="0.27uH"/>
+<part name="L4" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="L" device="" value="2uH"/>
+<part name="L5" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="L" device="" value="0.46uH"/>
+<part name="L6" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="L" device="" value="2uH"/>
 <part name="C8" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2,5-3" package3d_urn="urn:adsk.eagle:package:5436/1" value="390pF"/>
 <part name="C7" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2,5-3" package3d_urn="urn:adsk.eagle:package:5436/1" value="1.5nF"/>
 <part name="C5" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2,5-3" package3d_urn="urn:adsk.eagle:package:5436/1" value="47nF"/>
@@ -3165,23 +3165,23 @@ RX II (HF/LF) Auto Band Pass Filters</text>
 <attribute name="NAME" x="-129.54" y="266.7" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-129.54" y="261.62" size="1.778" layer="96"/>
 </instance>
-<instance part="L4" gate="G$1" x="-200.66" y="210.82" smashed="yes">
+<instance part="L7" gate="G$1" x="-200.66" y="210.82" smashed="yes">
 <attribute name="NAME" x="-203.2" y="213.36" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-203.2" y="208.28" size="1.778" layer="96"/>
 </instance>
-<instance part="L6" gate="G$1" x="-139.7" y="210.82" smashed="yes">
+<instance part="L9" gate="G$1" x="-139.7" y="210.82" smashed="yes">
 <attribute name="NAME" x="-142.24" y="213.36" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-142.24" y="208.28" size="1.778" layer="96"/>
 </instance>
-<instance part="L7" gate="G$1" x="-198.12" y="180.34" smashed="yes">
+<instance part="L10" gate="G$1" x="-198.12" y="180.34" smashed="yes">
 <attribute name="NAME" x="-200.66" y="182.88" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-200.66" y="177.8" size="1.778" layer="96"/>
 </instance>
-<instance part="L8" gate="G$1" x="-165.1" y="190.5" smashed="yes" rot="R270">
+<instance part="L11" gate="G$1" x="-165.1" y="190.5" smashed="yes" rot="R270">
 <attribute name="NAME" x="-170.18" y="187.96" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-175.26" y="182.88" size="1.778" layer="96"/>
 </instance>
-<instance part="L9" gate="G$1" x="-139.7" y="180.34" smashed="yes">
+<instance part="L12" gate="G$1" x="-139.7" y="180.34" smashed="yes">
 <attribute name="NAME" x="-142.24" y="182.88" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-142.24" y="177.8" size="1.778" layer="96"/>
 </instance>
@@ -3291,19 +3291,19 @@ RX II (HF/LF) Auto Band Pass Filters</text>
 <instance part="GND12" gate="1" x="-58.42" y="193.04" smashed="yes">
 <attribute name="VALUE" x="-58.42" y="190.246" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="L5" gate="G$1" x="-165.1" y="203.2" smashed="yes" rot="R90">
+<instance part="L8" gate="G$1" x="-165.1" y="203.2" smashed="yes" rot="R90">
 <attribute name="NAME" x="-167.64" y="200.66" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-162.56" y="200.66" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="L10" gate="G$1" x="-170.18" y="238.76" smashed="yes">
+<instance part="L4" gate="G$1" x="-170.18" y="238.76" smashed="yes">
 <attribute name="NAME" x="-172.72" y="241.3" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-172.72" y="236.22" size="1.778" layer="96"/>
 </instance>
-<instance part="L11" gate="G$1" x="-144.78" y="233.68" smashed="yes" rot="R270">
+<instance part="L5" gate="G$1" x="-144.78" y="233.68" smashed="yes" rot="R270">
 <attribute name="NAME" x="-139.7" y="231.14" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-147.32" y="236.22" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="L12" gate="G$1" x="-127" y="238.76" smashed="yes">
+<instance part="L6" gate="G$1" x="-127" y="238.76" smashed="yes">
 <attribute name="NAME" x="-129.54" y="241.3" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-129.54" y="236.22" size="1.778" layer="96"/>
 </instance>
@@ -3358,7 +3358,7 @@ RX II (HF/LF) Auto Band Pass Filters</text>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="L4" gate="G$1" pin="2"/>
+<pinref part="L7" gate="G$1" pin="2"/>
 <wire x1="-193.04" y1="210.82" x2="-182.88" y2="210.82" width="0.1524" layer="91"/>
 <pinref part="C11" gate="G$1" pin="1"/>
 <wire x1="-182.88" y1="210.82" x2="-165.1" y2="210.82" width="0.1524" layer="91"/>
@@ -3366,7 +3366,7 @@ RX II (HF/LF) Auto Band Pass Filters</text>
 <wire x1="-165.1" y1="210.82" x2="-157.48" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="-182.88" y1="208.28" x2="-182.88" y2="210.82" width="0.1524" layer="91"/>
 <junction x="-182.88" y="210.82"/>
-<pinref part="L5" gate="G$1" pin="2"/>
+<pinref part="L8" gate="G$1" pin="2"/>
 <junction x="-165.1" y="210.82"/>
 </segment>
 </net>
@@ -3467,7 +3467,7 @@ RX II (HF/LF) Auto Band Pass Filters</text>
 <wire x1="-58.42" y1="198.12" x2="-58.42" y2="195.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="L8" gate="G$1" pin="1"/>
+<pinref part="L11" gate="G$1" pin="1"/>
 <wire x1="-165.1" y1="195.58" x2="-175.26" y2="195.58" width="0.1524" layer="91"/>
 <pinref part="C13" gate="G$1" pin="1"/>
 <wire x1="-175.26" y1="195.58" x2="-182.88" y2="195.58" width="0.1524" layer="91"/>
@@ -3475,7 +3475,7 @@ RX II (HF/LF) Auto Band Pass Filters</text>
 <pinref part="C10" gate="G$1" pin="1"/>
 <wire x1="-182.88" y1="200.66" x2="-182.88" y2="195.58" width="0.1524" layer="91"/>
 <junction x="-182.88" y="195.58"/>
-<pinref part="L5" gate="G$1" pin="1"/>
+<pinref part="L8" gate="G$1" pin="1"/>
 <wire x1="-165.1" y1="198.12" x2="-165.1" y2="195.58" width="0.1524" layer="91"/>
 <junction x="-165.1" y="195.58"/>
 <pinref part="GND2" gate="1" pin="GND"/>
@@ -3489,7 +3489,7 @@ RX II (HF/LF) Auto Band Pass Filters</text>
 <pinref part="C7" gate="G$1" pin="2"/>
 <wire x1="-154.94" y1="228.6" x2="-154.94" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="-154.94" y1="226.06" x2="-177.8" y2="226.06" width="0.1524" layer="91"/>
-<pinref part="L11" gate="G$1" pin="2"/>
+<pinref part="L5" gate="G$1" pin="2"/>
 <wire x1="-177.8" y1="226.06" x2="-195.58" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="-144.78" y1="226.06" x2="-154.94" y2="226.06" width="0.1524" layer="91"/>
 <junction x="-154.94" y="226.06"/>
@@ -3500,28 +3500,28 @@ RX II (HF/LF) Auto Band Pass Filters</text>
 <net name="N$2" class="0">
 <segment>
 <pinref part="C9" gate="G$1" pin="2"/>
-<pinref part="L4" gate="G$1" pin="1"/>
+<pinref part="L7" gate="G$1" pin="1"/>
 <wire x1="-210.82" y1="210.82" x2="-205.74" y2="210.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
 <pinref part="C11" gate="G$1" pin="2"/>
-<pinref part="L6" gate="G$1" pin="1"/>
+<pinref part="L9" gate="G$1" pin="1"/>
 <wire x1="-149.86" y1="210.82" x2="-144.78" y2="210.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
 <pinref part="C12" gate="G$1" pin="2"/>
-<pinref part="L7" gate="G$1" pin="1"/>
+<pinref part="L10" gate="G$1" pin="1"/>
 <wire x1="-208.28" y1="180.34" x2="-203.2" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$16" class="0">
 <segment>
 <pinref part="C14" gate="G$1" pin="2"/>
-<pinref part="L9" gate="G$1" pin="1"/>
+<pinref part="L12" gate="G$1" pin="1"/>
 <wire x1="-149.86" y1="180.34" x2="-144.78" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -3608,7 +3608,7 @@ RX II (HF/LF) Auto Band Pass Filters</text>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="L7" gate="G$1" pin="2"/>
+<pinref part="L10" gate="G$1" pin="2"/>
 <pinref part="C14" gate="G$1" pin="1"/>
 <wire x1="-190.5" y1="180.34" x2="-182.88" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="C13" gate="G$1" pin="2"/>
@@ -3616,15 +3616,15 @@ RX II (HF/LF) Auto Band Pass Filters</text>
 <wire x1="-165.1" y1="180.34" x2="-157.48" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="-182.88" y1="185.42" x2="-182.88" y2="180.34" width="0.1524" layer="91"/>
 <junction x="-182.88" y="180.34"/>
-<pinref part="L8" gate="G$1" pin="2"/>
+<pinref part="L11" gate="G$1" pin="2"/>
 <wire x1="-165.1" y1="182.88" x2="-165.1" y2="180.34" width="0.1524" layer="91"/>
 <junction x="-165.1" y="180.34"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
-<pinref part="L10" gate="G$1" pin="2"/>
-<pinref part="L11" gate="G$1" pin="1"/>
+<pinref part="L4" gate="G$1" pin="2"/>
+<pinref part="L5" gate="G$1" pin="1"/>
 <wire x1="-162.56" y1="238.76" x2="-154.94" y2="238.76" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="1"/>
 <wire x1="-154.94" y1="238.76" x2="-144.78" y2="238.76" width="0.1524" layer="91"/>
@@ -3658,14 +3658,14 @@ RX II (HF/LF) Auto Band Pass Filters</text>
 <net name="N$26" class="0">
 <segment>
 <pinref part="C6" gate="G$1" pin="2"/>
-<pinref part="L10" gate="G$1" pin="1"/>
+<pinref part="L4" gate="G$1" pin="1"/>
 <wire x1="-180.34" y1="238.76" x2="-175.26" y2="238.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$28" class="0">
 <segment>
 <pinref part="C8" gate="G$1" pin="2"/>
-<pinref part="L12" gate="G$1" pin="1"/>
+<pinref part="L6" gate="G$1" pin="1"/>
 <wire x1="-134.62" y1="238.76" x2="-132.08" y2="238.76" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -3741,7 +3741,7 @@ RX II (HF/LF) Auto Band Pass Filters</text>
 <wire x1="-109.22" y1="236.22" x2="-109.22" y2="223.52" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$0" pin="2B2"/>
 <wire x1="-109.22" y1="223.52" x2="-104.14" y2="223.52" width="0.1524" layer="91"/>
-<pinref part="L12" gate="G$1" pin="2"/>
+<pinref part="L6" gate="G$1" pin="2"/>
 <wire x1="-119.38" y1="238.76" x2="-109.22" y2="238.76" width="0.1524" layer="91"/>
 <wire x1="-109.22" y1="238.76" x2="-109.22" y2="236.22" width="0.1524" layer="91"/>
 <junction x="-109.22" y="236.22"/>
@@ -3754,7 +3754,7 @@ RX II (HF/LF) Auto Band Pass Filters</text>
 <wire x1="-111.76" y1="233.68" x2="-111.76" y2="220.98" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$0" pin="2B3"/>
 <wire x1="-111.76" y1="220.98" x2="-104.14" y2="220.98" width="0.1524" layer="91"/>
-<pinref part="L6" gate="G$1" pin="2"/>
+<pinref part="L9" gate="G$1" pin="2"/>
 <wire x1="-132.08" y1="210.82" x2="-132.08" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="-132.08" y1="220.98" x2="-111.76" y2="220.98" width="0.1524" layer="91"/>
 <junction x="-111.76" y="220.98"/>
@@ -3767,7 +3767,7 @@ RX II (HF/LF) Auto Band Pass Filters</text>
 <wire x1="-116.84" y1="231.14" x2="-116.84" y2="218.44" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$0" pin="2B4"/>
 <wire x1="-114.3" y1="218.44" x2="-104.14" y2="218.44" width="0.1524" layer="91"/>
-<pinref part="L9" gate="G$1" pin="2"/>
+<pinref part="L12" gate="G$1" pin="2"/>
 <wire x1="-132.08" y1="180.34" x2="-114.3" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="-116.84" y1="218.44" x2="-114.3" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="-114.3" y1="218.44" x2="-114.3" y2="180.34" width="0.1524" layer="91"/>
