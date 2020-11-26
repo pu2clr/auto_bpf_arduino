@@ -76,6 +76,31 @@ The schematic below uses two [FST3253](https://www.mouser.com/datasheet/2/149/FS
 ## Photos
 
 
+The photos below show Jim Reagan's board design of the Auto Band Pass filter. You can find more details about it on [https://github.com/JimReagans/Si4735-radio-PCB-s-and-bandpass-filter](https://github.com/JimReagans/Si4735-radio-PCB-s-and-bandpass-filter). 
+
+<BR>
+
+![Jim Reagan's board photo 01](https://github.com/pu2clr/auto_bpf_arduino/blob/master/images/F01_A.png)
+
+<BR>
+
+![Jim Reagan's board photo 02](https://github.com/pu2clr/auto_bpf_arduino/blob/master/images/F01_B.png)
+
+<BR>
+<BR>
+
+The photos below show the SI4732 based receiver with the Auto Band Pass Filter controlled by Arduino.
+
+<BR> 
+
+![Ricardo's SI4732 receiver prototype 01](https://github.com/pu2clr/auto_bpf_arduino/blob/master/images/F02_A.png)
+
+<BR>
+
+![Ricardo's SI4732 receiver prototype 02](https://github.com/pu2clr/auto_bpf_arduino/blob/master/images/F02_B.png)
+
+
+
 
 ## References
 
