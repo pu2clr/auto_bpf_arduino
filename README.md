@@ -100,6 +100,7 @@ To check the most appropriate toroid for the inductor as well as the number of t
 * L is the indutance (pay attention to the unit).
 * N is the number of turns.
 
+[Go to Amidon iron powder toroids calculator](https://coil32.net/online-calculators/amidon-iron-powder-cores-calculator.html)
 
 
 ## Arduino Driver for Auto Band Pass filters
