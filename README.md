@@ -93,6 +93,18 @@ The basic circuit below represents a generic band pass filter used by this proje
 
 To check the most appropriate toroid for the inductor as well as the number of turns, see [Amidon iron powder toroids calculator](https://coil32.net/online-calculators/amidon-iron-powder-cores-calculator.html)
 
+
+### Toroids and Inductor Formula
+
+You can build your own inductor by using toroids. The formula to do that is shown below. 
+
+
+![Toroid Inductor formula ](https://github.com/pu2clr/auto_bpf_arduino/blob/master/images/l_calculation_totoid_formula.png)
+
+
+__Where AL and N are the factor and number of turns respectively__. 
+
+
 #### Toroids parameters: 
 
 * Select the material type. It can tell you the resonant circuit frequency range. Generally you will get a correspondente color to the material. Check the resonant frequency range you want to work.
