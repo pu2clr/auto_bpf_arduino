@@ -56,9 +56,12 @@ Mr. Jim Regan, W0CHL, did a great job on auto bandpass filter. I recommend his d
 
 # SCHEMATIC
 
-The schematic below uses two [FST3253](https://www.mouser.com/datasheet/2/149/FST3253-113358.pdf) or two [SN74CBT3253D](https://www.ti.com/lit/ds/symlink/sn74cbt3253.pdf?HQS=TI-null-null-mousermode-df-pf-null-wwe&ts=1596797600884&ref_url=https%253A%252F%252Fbr.mouser.com%252F) device switches to select one of four bandpass filters. 
+The schematic below uses two [FST3253](https://www.mouser.com/datasheet/2/149/FST3253-113358.pdf) or two [SN74CBT3253D](https://www.ti.com/lit/ds/symlink/sn74cbt3253.pdf?HQS=TI-null-null-mousermode-df-pf-null-wwe&ts=1596797600884&ref_url=https%253A%252F%252Fbr.mouser.com%252F) device switches to select one of four bandpass filters. It shows a set of four band pass filters (T section bandpass filter setup). Two Arduino pins are used to select the right filter depending on frequency. 
+
 
 ![Bandpass filter schematic](https://github.com/pu2clr/auto_bpf_arduino/blob/master/images/schematic_01.png)
+
+
 
 * Filter 0 (180KHz to 4MHz )
   * L1 and L3: 4.6 uH; 35 turns; wire: #30; Toroid: T30-2(Red) 
