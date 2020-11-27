@@ -53,8 +53,8 @@ The schematic below uses two [FST3253](https://www.mouser.com/datasheet/2/149/FS
 ![Bandpass filter schematic](https://github.com/pu2clr/auto_bpf_arduino/blob/master/images/schematic_01.png)
 
 * Filter 0 (180KHz to 4MHz )
-  * L1 and L3: 5.5 uH; 35 turns; wire: #30; Toroid: T30-2(Red) 
-  * L2: 2.6uH; 24 Turns; wire #30; Toroid T30-2(Red)
+  * L1 and L3: 4.6 uH; 35 turns; wire: #30; Toroid: T30-2(Red) 
+  * L2: 1.3uH; 24 Turns; wire #30; Toroid T30-2(Red)
 
 * Filter 1 (4MHz to 8MHz)
   * L4 and L6: 2.00 uH; 21 turns; wire: #30; Toroid: T30-2(Red)
@@ -67,6 +67,30 @@ The schematic below uses two [FST3253](https://www.mouser.com/datasheet/2/149/FS
 * Filter 3 (16MHz to 30MHz)
   * L10 and L12: 0.46uH: 13 turns; wire #30; Toroid T25-6 (Yellow)
   * L11: 0.13uH: 7 turns; wire #30;  Toroid T25-6 (Yellow).
+
+
+## Customizing LC bandpass filter L and C pairs calculation
+
+You can try other filters setup by calculating the components of each band pass filter.
+The basic circuit below represents a generic band pass filter used by this project. 
+
+![Generic LC Band Pass Filter Circuit](https://github.com/pu2clr/auto_bpf_arduino/blob/master/images/lc_basic_bpf_circuit.png)
+
+
+
+
+### LC bandpass filter L and C pairs calculation
+
+
+![LC filter formula](https://github.com/pu2clr/auto_bpf_arduino/blob/master/images/lc_filter_formula.png)
+
+
+#### Where:  
+
+* LX1, LX2 and LX3 are the inductors (indutance in Henries)
+* CX1, CX2 and CX3 are the capacitors (capacitance in Farads) 
+* fmax and fmin are cut off frequencies in Hertz
+
 
 
 ## Arduino Driver for Auto Band Pass filters
