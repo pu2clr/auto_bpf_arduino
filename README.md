@@ -117,7 +117,8 @@ __Where AL and N are the factor and number of turns respectively__.
 
 ## Arduino Driver for Auto Band Pass filters
 
-If you are using Arduino, you can add in your sketch folder the files [AutoBPF.h and AutoBPF.cpp](https://github.com/pu2clr/auto_bpf_arduino/tree/master/Arduino/pu2clr_autobpf_driver). These files are the library to control the Auto Band Pass filter device of this ptoject. 
+If you are using Arduino, you can add in your sketch folder the files [AutoBPF.h and AutoBPF.cpp](https://github.com/pu2clr/auto_bpf_arduino/tree/master/Arduino/pu2clr_autobpf_driver). These files integrate the Arduino library for the Auto Band Pass filter filter of this project. Check the folder 
+[Arduino/pu2clr_autobpf_driver](https://github.com/pu2clr/auto_bpf_arduino/tree/master/Arduino/pu2clr_autobpf_driver).
 
 
 In your main sketch you have to declare the AutoBPF library as shown below.
