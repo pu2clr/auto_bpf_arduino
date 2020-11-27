@@ -78,7 +78,6 @@ The basic circuit below represents a generic band pass filter used by this proje
 
 
 
-
 ### LC bandpass filter L and C pairs calculation
 
 
@@ -90,6 +89,16 @@ The basic circuit below represents a generic band pass filter used by this proje
 * LX1, LX2 and LX3 are the inductors (indutance in Henries)
 * CX1, CX2 and CX3 are the capacitors (capacitance in Farads) 
 * fmax and fmin are cut off frequencies in Hertz
+
+
+To check the most appropriate toroid for the inductor as well as the number of turns, see [Amidon iron powder toroids calculator](https://coil32.net/online-calculators/amidon-iron-powder-cores-calculator.html)
+
+#### Toroids parameters: 
+
+* Select the material type. It can tell you the resonant circuit frequency range. Generally you will get a correspondente color to the material. Check the resonant frequency range you want to work.
+* Select the Dimension type of the toroid. Generally it is expressed by T-25, T-30, etc.
+* L is the indutance (pay attention to the unit).
+* N is the number of turns.
 
 
 
