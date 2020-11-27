@@ -17,14 +17,18 @@ Ricardo Lima Caratti, PU2CLR
 
 ## Contents 
 
-1. Preface
-2. Thanks
-3. Schematic
-4. Arduino Driver for Auto Band Pass filters
-   1. Sketch setup
-   2. How to test your filter
-5. Photos
-6. References
+1. [Preface](https://github.com/pu2clr/auto_bpf_arduino#preface)
+2. [Thanks](https://github.com/pu2clr/auto_bpf_arduino#thanks)
+3. [Schematic](https://github.com/pu2clr/auto_bpf_arduino#schematic)
+4. [Customizing LC bandpass filter L and C pairs calculation](https://github.com/pu2clr/auto_bpf_arduino#customizing-lc-bandpass-filter-l-and-c-pairs-calculation)
+   * [LC bandpass filter L and C pairs calculation](https://github.com/pu2clr/auto_bpf_arduino#lc-bandpass-filter-l-and-c-pairs-calculation) 
+   * [Toroids and Inductor Formula](https://github.com/pu2clr/auto_bpf_arduino#toroids-and-inductor-formula)
+5. [Arduino Driver for Auto Band Pass filters](https://github.com/pu2clr/auto_bpf_arduino#arduino-driver-for-auto-band-pass-filters)
+   * Sketch setup
+   * How to test your filter
+   * [Source code](https://github.com/pu2clr/auto_bpf_arduino/tree/master/Arduino)
+6. [Photos](https://github.com/pu2clr/auto_bpf_arduino#photos)
+7. [References](https://github.com/pu2clr/auto_bpf_arduino#references)
 
 
 ## Preface
@@ -34,6 +38,10 @@ Originally based on the [“Softrock Ensemble RX II (HF/LF) Auto Band Pass Filte
 The RF input and output of the original filter has been modified to be easily attached to the SI4735, AKC6955, KT0915 and others DSP based receivers istead the [SoftRock Ensemble RX II device](http://www.wb5rvz.org/ensemble_rx_ii/index?projectId=16). 
 
 Mr. Jim Regan, W0CHL, did a great job on auto bandpass filter. I recommend his design. Please, check Reagan's documentation on [https://github.com/JimReagans/Si4735-radio-PCB-s-and-bandpass-filter](https://github.com/JimReagans/Si4735-radio-PCB-s-and-bandpass-filter). 
+
+
+## Thanks
+
 
 
 ### Know more about DSP receivers controlled by Arduino 
