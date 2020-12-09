@@ -15,17 +15,17 @@ Ricardo Lima Caratti, PU2CLR
 
 ## Contents 
 
-1. [Preface](https://github.com/pu2clr/auto_bpf_arduino#preface)
-2. [Schematic](https://github.com/pu2clr/auto_bpf_arduino#schematic)
-3. [Customizing LC bandpass filter L and C pairs calculation](https://github.com/pu2clr/auto_bpf_arduino#customizing-lc-bandpass-filter-l-and-c-pairs-calculation)
-   * [LC bandpass filter L and C pairs calculation](https://github.com/pu2clr/auto_bpf_arduino#lc-bandpass-filter-l-and-c-pairs-calculation) 
-   * [Toroids and Inductor Formula](https://github.com/pu2clr/auto_bpf_arduino#toroids-and-inductor-formula)
-4. [Arduino Driver for Auto Band Pass filters](https://github.com/pu2clr/auto_bpf_arduino#arduino-driver-for-auto-band-pass-filters)
+1. [Preface](https://pu2clr.github.io/auto_bpf_arduino/#preface)
+2. [Schematic](https://pu2clr.github.io/auto_bpf_arduino/schematic)
+3. [Customizing LC bandpass filter L and C pairs calculation](https://pu2clr.github.io/auto_bpf_arduino/#customizing-lc-bandpass-filter-l-and-c-pairs-calculation)
+   * [LC bandpass filter L and C pairs calculation](https://pu2clr.github.io/auto_bpf_arduino/#lc-bandpass-filter-l-and-c-pairs-calculation) 
+   * [Toroids and Inductor Formula](https://pu2clr.github.io/auto_bpf_arduino/#toroids-and-inductor-formula)
+4. [Arduino Driver for Auto Band Pass filters](https://pu2clr.github.io/auto_bpf_arduino/#arduino-driver-for-auto-band-pass-filters)
    * Sketch setup
    * How to test your filter
    * [Source code](https://github.com/pu2clr/auto_bpf_arduino/tree/master/Arduino)
-5. [Photos](https://github.com/pu2clr/auto_bpf_arduino#photos)
-6. [References](https://github.com/pu2clr/auto_bpf_arduino#references)
+5. [Photos](https://pu2clr.github.io/auto_bpf_arduino/#photos)
+6. [References](https://pu2clr.github.io/auto_bpf_arduino/#references)
 
 
 ## Preface
