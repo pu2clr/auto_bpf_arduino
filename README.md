@@ -142,7 +142,8 @@ __Where AL and N are the factor and number of turns respectively__.
 * N is the number of turns.
 
 
-##### There is great tools to calculate the inductors by using toroids 
+#### There are great tools to calculate the inductors by using toroids. See the online tool shown below.  
+
 
 ![Toroids online calculator](./images/inductor_calculator_site.png)
 
