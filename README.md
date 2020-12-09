@@ -55,7 +55,7 @@ Mr. Jim Regan, W0CHL, did a great job on auto bandpass filter. I recommend his d
 The schematic below uses two [FST3253](https://www.mouser.com/datasheet/2/149/FST3253-113358.pdf) or two [SN74CBT3253D](https://www.ti.com/lit/ds/symlink/sn74cbt3253.pdf?HQS=TI-null-null-mousermode-df-pf-null-wwe&ts=1596797600884&ref_url=https%253A%252F%252Fbr.mouser.com%252F) device switches to select one of four bandpass filters. It shows a set of four band pass filters (T section bandpass filter setup). Two Arduino pins are used to select the right filter depending on frequency. 
 
 
-![Bandpass filter schematic](images/schematic_01.png)
+![Bandpass filter schematic](./images/schematic_01.png)
 
 
 
@@ -81,14 +81,14 @@ The schematic below uses two [FST3253](https://www.mouser.com/datasheet/2/149/FS
 You can try other filters setup by calculating the components of each band pass filter.
 The basic circuit below represents a generic band pass filter used by this project. 
 
-![Generic LC Band Pass Filter Circuit](https://github.com/pu2clr/auto_bpf_arduino/blob/master/images/lc_basic_bpf_circuit.png)
+![Generic LC Band Pass Filter Circuit](./images/lc_basic_bpf_circuit.png)
 
 
 
 ### LC bandpass filter L and C pairs calculation
 
 
-![LC filter formula](images/lc_filter_formula.png)
+![LC filter formula](./images/lc_filter_formula.png)
 
 
 #### Where:  
@@ -106,7 +106,7 @@ To check the most appropriate toroid for the inductor as well as the number of t
 You can build your own inductor by using toroids. The formula to do that is shown below. 
 
 
-![Toroid Inductor formula ](images/l_calculation_totoid_formula.png)
+![Toroid Inductor formula ](./images/l_calculation_totoid_formula.png)
 
 
 __Where AL and N are the factor and number of turns respectively__. 
@@ -158,11 +158,11 @@ The photos below show Jim Reagan's board design of the Auto Band Pass filter. Yo
 
 <BR>
 
-![Jim Reagan's board photo 01](images/F01_A.png)
+![Jim Reagan's board photo 01](./images/F01_A.png)
 
 <BR>
 
-![Jim Reagan's board photo 02](images/F01_B.png)
+![Jim Reagan's board photo 02](./images/F01_B.png)
 
 <BR>
 <BR>
@@ -171,11 +171,11 @@ The photos below show the SI4732 based receiver with the Auto Band Pass Filter c
 
 <BR> 
 
-![Ricardo's SI4732 receiver prototype 01](images/F02_A.png)
+![Ricardo's SI4732 receiver prototype 01](./images/F02_A.png)
 
 <BR>
 
-![Ricardo's SI4732 receiver prototype 02](images/F02_B.png)
+![Ricardo's SI4732 receiver prototype 02](./images/F02_B.png)
 
 
 ### Know more about DSP receivers controlled by Arduino 
