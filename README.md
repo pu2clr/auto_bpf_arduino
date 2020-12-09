@@ -9,8 +9,13 @@ This project includes a bandpass filter design based on [“Softrock Ensemble RX
 Mr. Jim Regan, W0CHL, did a great job on auto bandpass filter. I recommend his design. Please, check Reagan's documentation on [https://github.com/JimReagans/Si4735-radio-PCB-s-and-bandpass-filter](https://github.com/JimReagans/Si4735-radio-PCB-s-and-bandpass-filter)
 
 
+All Arduino source code found here can be freely distributed using the MIT Free Software model. 
+[Copyright (c) 2019 Ricardo Lima Caratti](https://pu2clr.github.io/auto_bpf_arduino/#mit-license). 
 
-Ricardo Lima Caratti, PU2CLR
+
+There is a __Facebook__ group called [__Si47XX for Radio Experimenters__](https://www.facebook.com/groups/532613604253401/) where the purpose is exchanging experiences with projects based on Silicon Labs  SI47XX IC family. You will be welcome to the group [Si47XX for Radio Experimenters](https://www.facebook.com/groups/532613604253401/).
+
+
 
 
 ## Contents 
@@ -50,6 +55,21 @@ Mr. Jim Regan, W0CHL, did a great job on auto bandpass filter. I recommend his d
 [HF auto bandpass filter controlled by Arduino (real test)](https://youtu.be/KuAmm0LjUGA)
 
 {% include video02.html %}
+
+
+## MIT License 
+
+Copyright (c) 2019 Ricardo Lima Caratti
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE ARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+<BR>
+
+
 
 
 # SCHEMATIC
