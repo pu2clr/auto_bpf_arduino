@@ -61,7 +61,7 @@ The two videos below were made using an Arduino Pro Mini 3.3V (8MHz) as the cont
 
 <BR>
 
-#### The video below shows the Auto bandpass filter working with an SI4732-A10 bases receiver
+#### The video below shows the Auto bandpass filter working with an SI4732-A10 based receiver
 
 [HF auto bandpass filter controlled by Arduino (real test)](https://youtu.be/KuAmm0LjUGA)
 
