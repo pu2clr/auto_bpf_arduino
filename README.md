@@ -9,7 +9,8 @@ This project includes a bandpass filter design based on [“Softrock Ensemble RX
 Mr. Jim Regan, W0CHL, did a great job on auto bandpass filter. I recommend his design. Please, check Reagan's documentation on [https://github.com/JimReagans/Si4735-radio-PCB-s-and-bandpass-filter](https://github.com/JimReagans/Si4735-radio-PCB-s-and-bandpass-filter)
 
 
-All Arduino source code found here can be freely distributed using the MIT Free Software model. 
+All Arduino source code found here can be __freely distributed using the MIT Free Software model__. 
+
 [Copyright (c) 2019 Ricardo Lima Caratti](https://pu2clr.github.io/auto_bpf_arduino/#mit-license). 
 
 
