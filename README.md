@@ -59,7 +59,7 @@ The schematic below uses two [FST3253](https://www.mouser.com/datasheet/2/149/FS
 
 
 
-* Filter 0 (180KHz to 4MHz )
+* Filter 0 (1800KHz to 4MHz )
   * L1 and L3: 4.6 uH; 35 turns; wire: #30; Toroid: T30-2(Red) 
   * L2: 1.3uH; 24 Turns; wire #30; Toroid T30-2(Red)
 
