@@ -13,10 +13,9 @@ All Arduino source code found here can be __freely distributed using the MIT Fre
 
 [Copyright (c) 2019 Ricardo Lima Caratti](https://pu2clr.github.io/auto_bpf_arduino/#mit-license). 
 
+## Be a member
 
 There is a __Facebook__ group called [__Si47XX for Radio Experimenters__](https://www.facebook.com/groups/532613604253401/) where the purpose is exchanging experiences with projects based on Silicon Labs  SI47XX IC family. You will be welcome to the group [Si47XX for Radio Experimenters](https://www.facebook.com/groups/532613604253401/).
-
-
 
 
 ## Contents 
