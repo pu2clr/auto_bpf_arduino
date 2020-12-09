@@ -121,6 +121,11 @@ __Where AL and N are the factor and number of turns respectively__.
 * L is the indutance (pay attention to the unit).
 * N is the number of turns.
 
+
+##### There is great tools to calculate the inductors by using toroids 
+
+![Toroids online calculator](./images/inductor_calculator_site.png)
+
 [Go to Amidon iron powder toroids calculator](https://coil32.net/online-calculators/amidon-iron-powder-cores-calculator.html)
 
 
