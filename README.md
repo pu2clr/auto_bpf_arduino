@@ -40,7 +40,7 @@ Originally based on the [“Softrock Ensemble RX II (HF/LF) Auto Band Pass Filte
 The RF input and output of the original filter has been modified to be easily attached to the SI4735, AKC6955, KT0915 and others DSP based receivers istead the [SoftRock Ensemble RX II device](http://www.wb5rvz.org/ensemble_rx_ii/index?projectId=16). 
 
 
-The main idea of this project is to allow the same Arduino that controls a receiver based on the SI473X, AKC6955, KT0915 or BK108X devices select also the correct bandpass filter depending on the selected reception band. The Arduino sketch must have a band table with the appropriate filter information for the band.
+The main idea of this project is to allow the same Arduino that controls a receiver based on the [SI473X](https://pu2clr.github.io/SI4735/), [AKC6955](https://pu2clr.github.io/AKC695X/), [KT0915](https://pu2clr.github.io/KT0915/) or [BK108X](https://pu2clr.github.io/BK108X/) devices select also the correct bandpass filter depending on the selected reception band. The Arduino sketch must have a band table with the appropriate filter information for the band.
 
 
 Mr. Jim Regan, W0CHL, did a great job on auto bandpass filter. I recommend his design. Please, check Reagan's documentation on [https://github.com/JimReagans/Si4735-radio-PCB-s-and-bandpass-filter](https://github.com/JimReagans/Si4735-radio-PCB-s-and-bandpass-filter). 
