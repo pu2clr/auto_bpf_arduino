@@ -37,7 +37,7 @@ The RF input and output of the original filter has been modified to be easily at
 Mr. Jim Regan, W0CHL, did a great job on auto bandpass filter. I recommend his design. Please, check Reagan's documentation on [https://github.com/JimReagans/Si4735-radio-PCB-s-and-bandpass-filter](https://github.com/JimReagans/Si4735-radio-PCB-s-and-bandpass-filter). 
 
 
-The videos below show this filter working.
+### The videos below show an example of the Auto bandpass filter working.
 
 [HF Auto Bandpass filter controlled by Arduino (first test)](https://youtu.be/M1PDRzVvAm0)
 
