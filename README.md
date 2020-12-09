@@ -1,7 +1,5 @@
 # Band Pass Filter controlled by Arduino
 
-![Under construction](https://github.com/pu2clr/auto_bpf_arduino/blob/master/images/under_construction.png)
-
 It is a HF band pass filter controlled by Arduino. It is designed for HF receivers. 
 With this project, you can use a set of up to four HF bandpass filters that can be selected by Arduino. 
 To do that you will need just two digital Arduino pins.
@@ -18,17 +16,16 @@ Ricardo Lima Caratti, PU2CLR
 ## Contents 
 
 1. [Preface](https://github.com/pu2clr/auto_bpf_arduino#preface)
-2. [Thanks](https://github.com/pu2clr/auto_bpf_arduino#thanks)
-3. [Schematic](https://github.com/pu2clr/auto_bpf_arduino#schematic)
-4. [Customizing LC bandpass filter L and C pairs calculation](https://github.com/pu2clr/auto_bpf_arduino#customizing-lc-bandpass-filter-l-and-c-pairs-calculation)
+2. [Schematic](https://github.com/pu2clr/auto_bpf_arduino#schematic)
+3. [Customizing LC bandpass filter L and C pairs calculation](https://github.com/pu2clr/auto_bpf_arduino#customizing-lc-bandpass-filter-l-and-c-pairs-calculation)
    * [LC bandpass filter L and C pairs calculation](https://github.com/pu2clr/auto_bpf_arduino#lc-bandpass-filter-l-and-c-pairs-calculation) 
    * [Toroids and Inductor Formula](https://github.com/pu2clr/auto_bpf_arduino#toroids-and-inductor-formula)
-5. [Arduino Driver for Auto Band Pass filters](https://github.com/pu2clr/auto_bpf_arduino#arduino-driver-for-auto-band-pass-filters)
+4. [Arduino Driver for Auto Band Pass filters](https://github.com/pu2clr/auto_bpf_arduino#arduino-driver-for-auto-band-pass-filters)
    * Sketch setup
    * How to test your filter
    * [Source code](https://github.com/pu2clr/auto_bpf_arduino/tree/master/Arduino)
-6. [Photos](https://github.com/pu2clr/auto_bpf_arduino#photos)
-7. [References](https://github.com/pu2clr/auto_bpf_arduino#references)
+5. [Photos](https://github.com/pu2clr/auto_bpf_arduino#photos)
+6. [References](https://github.com/pu2clr/auto_bpf_arduino#references)
 
 
 ## Preface
@@ -40,9 +37,17 @@ The RF input and output of the original filter has been modified to be easily at
 Mr. Jim Regan, W0CHL, did a great job on auto bandpass filter. I recommend his design. Please, check Reagan's documentation on [https://github.com/JimReagans/Si4735-radio-PCB-s-and-bandpass-filter](https://github.com/JimReagans/Si4735-radio-PCB-s-and-bandpass-filter). 
 
 
-## Thanks
+The videos below show this filter working.
 
+[HF Auto Bandpass filter controlled by Arduino (first test)](https://youtu.be/M1PDRzVvAm0)
 
+{% include video01.html %}
+
+<BR>
+
+[HF auto bandpass filter controlled by Arduino (real test)](https://youtu.be/KuAmm0LjUGA)
+
+{% include video02.html %}
 
 
 # SCHEMATIC
@@ -119,7 +124,7 @@ __Where AL and N are the factor and number of turns respectively__.
 
 ## Arduino Driver for Auto Band Pass filters
 
-If you are using Arduino, you can add in your sketch folder the files [AutoBPF.h and AutoBPF.cpp](https://github.com/pu2clr/auto_bpf_arduino/tree/master/Arduino/pu2clr_autobpf_driver). These files integrate the Arduino library for the Auto Band Pass filter filter of this project. Check the folder 
+If you are using Arduino, you can add in your sketch folder the files [AutoBPF.h and AutoBPF.cpp](https://github.com/pu2clr/auto_bpf_arduino/tree/master/Arduino/pu2clr_autobpf_driver). These files integrate the Arduino library for the Auto bandpass filter filter of this project. Check the folder 
 [Arduino/pu2clr_autobpf_driver](https://github.com/pu2clr/auto_bpf_arduino/tree/master/Arduino/pu2clr_autobpf_driver).
 
 
