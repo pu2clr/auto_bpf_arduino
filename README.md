@@ -67,7 +67,7 @@ The schematic below uses two [FST3253](https://www.mouser.com/datasheet/2/149/FS
   * L4 and L6: 2.00 uH; 21 turns; wire: #30; Toroid: T30-2(Red)
   * L5: 0.46uH; 10 Turns; wire #30; Toroid T30-2(Red)
 
-* Filter 2 (16MHz to 16MHz)
+* Filter 2 (8MHz to 16MHz)
   * L7 and L9: 1uH; 19 turns; wire #30; Toroid T25-6(Yellow)
   * L8: 0.27uH: 10 turns; wire #30; Toroid T25-6 c(Yellow)
 
