@@ -46,15 +46,25 @@ Mr. Jim Regan, W0CHL, did a great job on auto bandpass filter. I recommend his d
 
 ### The videos below show an example of the Auto bandpass filter working.
 
+The two videos below were made using an Arduino Pro Mini 3.3V (8MHz) as the controller. 
+
+
+#### The video below shows the test of the Auto bandpass filter cut frequencies 
+
 [HF Auto Bandpass filter controlled by Arduino (first test)](https://youtu.be/M1PDRzVvAm0)
 
 {% include video01.html %}
 
 <BR>
 
+#### The video below shows the Auto bandpass filter working with an SI4732-A10 bases receiver
+
 [HF auto bandpass filter controlled by Arduino (real test)](https://youtu.be/KuAmm0LjUGA)
 
 {% include video02.html %}
+
+
+
 
 
 ## MIT License 
