@@ -119,6 +119,7 @@ The basic circuit below represents a generic band pass filter used by this proje
 
 ![Generic LC Band Pass Filter Circuit](./images/lc_basic_bpf_circuit.png)
 
+You can find many tools to help you to calculate the values of the filter components on internet. The  [Chebyshev Bandpass Filter Designer](https://www.changpuak.ch/electronics/chebyshev_bandpass.php), for example, can help you to find the values of the elements (capacitances and inductances) of each filter you want to setup. You will find more information below. 
 
 
 ### LC bandpass filter L and C pairs calculation
@@ -229,7 +230,7 @@ The photos below show the SI4732 based receiver with the Auto Band Pass Filter c
 5. [PU2CLR RDA5807 Arduino Library](https://pu2clr.github.io/RDA5807/). The RDA5807 is a FM DSP integrated circuit receiver (50 to 115MHz) with low noise amplifier support. This device requires very few external components if compared with other similar devices. It also supports RDS/RBDS functionalities, direct auto gain control (AGC) and real time adaptive noise cancellation function.
 6. [PU2CLR SI470X Arduino Library](https://pu2clr.github.io/SI470X/). It is a Silicon Labs device family that integrates the complete functionalities for FM receivers, including RDS (Si4703).
 
-#### More Arduino Projects by author 
+#### More Arduino Projects by the author 
 
 * [Multipurpose signal generator with SI5351](https://pu2clr.github.io/SI5351/). It is a multipurpose signal generator controlled by Arduino. This project uses the SI5351 from Silicon Labs. The Arduino sketch is configured to control the SI5351 with three channels from 32.768KHz to 160MHz and steps from 1Hz to 1MHz.
 * [Shortwave Arduino Transmiter](https://pu2clr.github.io/Small-Shortwave-Transmitter/). This project is about a shortwave transmitter from 3 MHz to 30 MHz. It uses the SI5351 oscillator from Silicon Labs controlled by Arduino. Also, you can use it with a crystal oscillator. In this case, you will not need the SI5351 device and Arduino. 
@@ -247,3 +248,5 @@ Cordova provides an easy way to develop for iOS and Android.
 5. [Bandpass LC Filters](https://youtu.be/mv_T6eBp3Lk)
 6. [Ensemble RX II (HF/LF)](http://www.wb5rvz.org/ensemble_rx_ii/index)
 7. [Ensemble RX II (HF/LF) Auto Band Pass Filters](http://www.wb5rvz.org/ensemble_rx_ii/05_bpf)
+8. [Chebyshev Bandpass Filter Designer](https://www.changpuak.ch/electronics/chebyshev_bandpass.php)
+   
