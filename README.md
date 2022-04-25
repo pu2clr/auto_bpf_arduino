@@ -119,8 +119,6 @@ The basic circuit below represents a generic band pass filter used by this proje
 
 ![Generic LC Band Pass Filter Circuit](./images/lc_basic_bpf_circuit.png)
 
-You can find many tools to help you to calculate the values of the filter components on internet. The  [Chebyshev Bandpass Filter Designer](https://www.changpuak.ch/electronics/chebyshev_bandpass.php), for example, can help you to find the values of the elements (capacitances and inductances) of each filter you want to setup. You will find more information below. 
-
 
 ### LC bandpass filter L and C pairs calculation
 
@@ -136,6 +134,8 @@ You can find many tools to help you to calculate the values of the filter compon
 * Zo is the characteristic impedance in ohms
 
 To check the most appropriate toroid for the inductor as well as the number of turns, see [Amidon iron powder toroids calculator](https://coil32.net/online-calculators/amidon-iron-powder-cores-calculator.html)
+
+You can find many tools to help you to calculate the values of the filter components on internet. The  [Chebyshev Bandpass Filter Designer](https://www.changpuak.ch/electronics/chebyshev_bandpass.php), for example, can help you to find the values of the elements (capacitances and inductances) of each filter you want to setup. You will find more information below. 
 
 
 ### Toroids and Inductor Formula
